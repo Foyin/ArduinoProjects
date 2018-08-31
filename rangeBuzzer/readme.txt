@@ -1,11 +1,7 @@
-Purpose: 
+#### Purpose: 
 In this project we are creating a simple alarm system with arduino. The system checks if there is anything within a specified range and a buzzer goes off accordingly. And you can switch off the alarm with a physical switch so nothing happens when an obstacle is in range.
 
-Date created: 11/05/2018
-
-Developer: Foyin Ogbara
-
-Devices needed:
+#### Devices needed:
 -Arduino IDE
 -Ultrasonic range sensor
 -Piezo buzzer
@@ -13,7 +9,7 @@ Devices needed:
 -Arduino Uno
 -Arduino helishun relay 4 channel stack
 
-Layout:
+#### Layout:
 Stack the arduino relay on top of the uno then make the following connections.
 -Ultrsonic sensor GND wire to relay GND pin
 -Ultrsonic sensor VCC wire to relay 3v pin
@@ -25,14 +21,14 @@ Stack the arduino relay on top of the uno then make the following connections.
 -Piezo buzzer VCC wire to relay NO channel1 
 -Piezo buzzer SIG wire to relay COM1 channel1 
 
-Issues:
+#### Issues:
 The wiring is a bit naive there ae better ways to do it but this way will help you understand the project a lot better, after that you can improve the wiring. For example instead of using the 5v and 3v ports we can just wire the two devices in parallel, that way they save sapce on the board without compromising voltage.
 Also the loudness of the buzzer is dependent on the voltage coming thorugh it. So you can make it louder by adding a battery inbetween.
 
-Notes:
+#### Notes:
 In with the specific relay used here pin 7 is the input pin for channel1, pin 6 is the input pin for channel2, pin 5 is the input pin for channel2, pin 5 is the input pin for channel3, and pin 4 is the input pin for channel5.
 
-To use:
+#### To use:
 Set up all the specified connections, open your IDE, pick your arduino and port, Upload rangeBuzzer.ino program and use your device.
 
 -For Linux users you need to give the arduino permission to access your computers port.
