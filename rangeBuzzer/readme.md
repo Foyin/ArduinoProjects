@@ -21,6 +21,10 @@ Stack the arduino relay on top of the uno then make the following connections.
 -Piezo buzzer VCC wire to relay NO channel1 
 -Piezo buzzer SIG wire to relay COM1 channel1 
 
+![closeup](https://user-images.githubusercontent.com/15314851/44922321-2023c880-ad13-11e8-800b-4193045a8187.JPG)
+
+![setup2](https://user-images.githubusercontent.com/15314851/44922334-29ad3080-ad13-11e8-9dc1-71d02e930097.JPG)
+
 #### Issues:
 The wiring is a bit naive there ae better ways to do it but this way will help you understand the project a lot better, after that you can improve the wiring. For example instead of using the 5v and 3v ports we can just wire the two devices in parallel, that way they save sapce on the board without compromising voltage.
 Also the loudness of the buzzer is dependent on the voltage coming thorugh it. So you can make it louder by adding a battery inbetween.
