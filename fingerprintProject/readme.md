@@ -15,6 +15,12 @@ In this project we are creating alarm system with certain specifications to be u
 Look for each components schematics on their respective company websites for the proper hook uk for your device
 https://www.digikey.ca/en/maker/projects/aad2459ecf4b493f996656cfdd1e5464 - this is a useful link
 
+![img_0349](https://user-images.githubusercontent.com/15314851/44921680-3d579780-ad11-11e8-8a9e-0113b0e7f188.JPG)
+
+![img_0350](https://user-images.githubusercontent.com/15314851/44921683-421c4b80-ad11-11e8-9baf-b693018e66d6.JPG)
+
+![img_0351](https://user-images.githubusercontent.com/15314851/44921696-47799600-ad11-11e8-97c2-58d406c35d7b.JPG)
+
 #### Notes:
 - The GT-511C1R fingerprint sensor can store only 20 records, also it has been retired. It does not store the pictures taken. It uses and irreversible algorithm to convert the picture into a less human friendly form. Similar to how websites store passwords.
 - The arduino mega has more than one serial port so this example works. It may not work on the uno because the FPS uses the serial port communicate and the uno has only one serial port.
