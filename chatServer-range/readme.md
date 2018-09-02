@@ -3,9 +3,9 @@
 To create the ability for multiple store fronts on the same network to use a nodejs chat app to chat between stores easily and efficiently. To tackle the simple problems of using tools like this on multiple storefronts we will using a range sensor. So while an employee is at a register (node in the network) the chat app is running but if they are away for longer than 15 minutes, the app closes. The same thing is being done with a doodling app in two ways. A scalable way and a less scalable way.
 
 #### Devices needed:
-- Arduino IDE
-- Ultrasonic range sensor
-- Arduino Uno
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [Ultrasonic range sensor](http://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
+- [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
 
 #### Layout:
 Make the following connections
