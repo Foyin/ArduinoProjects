@@ -6,7 +6,7 @@ In this project we are creating alarm system with certain specifications to be u
 
 #### Devices needed:
 - [Arduino Mega](https://www.arduino.cc/en/Main/arduinoBoardMega/)
-- [Ultrasonic range sensor]()
+- [Ultrasonic range sensor](http://wiki.seeedstudio.com/Ultra_Sonic_range_measurement_module/)
 - Piezo buzzer
 - Fingerprint sensor (model: GT-511C3/GT-511C1R)
 - Light sensor
