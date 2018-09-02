@@ -4,7 +4,7 @@ In this project we are creating a simple alarm system with arduino. The system c
 #### Devices needed:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 - [Ultrasonic range sensor](http://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
-- Piezo buzzer/Speaker
+- [Piezo buzzer](http://wiki.seeedstudio.com/Grove-Buzzer/)
 - Switch
 - [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
 - [Arduino helishun relay 4 channel stack](https://www.seeedstudio.com/Relay-Shield-v3.0-p-2440.html)
