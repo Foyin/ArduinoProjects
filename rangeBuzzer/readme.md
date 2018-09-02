@@ -2,12 +2,12 @@
 In this project we are creating a simple alarm system with arduino. The system checks if there is anything within a specified range and a buzzer goes off accordingly. And you can switch off the alarm with a physical switch so nothing happens when an obstacle is in range.
 
 #### Devices needed:
-- Arduino IDE
-- Ultrasonic range sensor
-- Piezo buzzer
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [Ultrasonic range sensor](http://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
+- Piezo buzzer/Speaker
 - Switch
-- Arduino Uno
-- Arduino helishun relay 4 channel stack
+- [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
+- [Arduino helishun relay 4 channel stack](https://www.seeedstudio.com/Relay-Shield-v3.0-p-2440.html)
 
 #### Layout:
 Stack the arduino relay on top of the uno then make the following connections.
