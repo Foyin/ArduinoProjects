@@ -5,8 +5,8 @@
 In this project we are creating alarm system with certain specifications to be use at home or in businesses. A light sensor will check if how bright the room is and a range sensor checks if anyone is at the entrance. The idea is to check if we have an intruder after closing hours. If the room is dark and no one is at the entrance and the lights are off the the buzzer stays on, else if any of these conditions are broken it would go off. The only way to shut it off is by using your finger print. Only registered fingerprints would shut it off for five mins. Its just a simple case that could be scaled up really well.
 
 #### Devices needed:
-- Arduino Mega
-- Ultrasonic range sensor
+- [Arduino Mega](https://www.arduino.cc/en/Main/arduinoBoardMega/)
+- [Ultrasonic range sensor]()
 - Piezo buzzer
 - Fingerprint sensor (model: GT-511C3/GT-511C1R)
 - Light sensor
