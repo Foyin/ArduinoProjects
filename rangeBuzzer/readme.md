@@ -34,6 +34,8 @@ Also the loudness of the buzzer is dependent on the voltage coming thorugh it. S
 #### Notes:
 In with the specific relay used here pin 7 is the input pin for channel1, pin 6 is the input pin for channel2, pin 5 is the input pin for channel2, pin 5 is the input pin for channel3, and pin 4 is the input pin for channel5.
 
+You can control volume of alarm with rotary encoder, that why it is better than a simple binary switch
+
 #### To use:
 Set up all the specified connections, open your IDE, pick your arduino and port, Upload rangeBuzzer.ino program and use your device.
 
