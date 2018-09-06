@@ -41,10 +41,10 @@ Set up all the specified connections, open your IDE, pick your arduino and port,
 
 For Linux users you need to give the arduino permission to access your computers port.
 
-If you run Arduino IDE on Ubuntu, most possibly you cannot upload to Arduino board, caused by the error of:
+If you run Arduino IDE on Ubuntu, most possibly you cannot upload to Arduino board, caused by the error:
 
-avrdude: ser_open(): can't open device "/dev/ttyACM0": Permission denied
-ioctl("TIOCMGET"): Inappropriate ioctl for device
+`avrdude: ser_open(): can't open device "/dev/ttyACM0": Permission denied
+ioctl("TIOCMGET"): Inappropriate ioctl for device`
 
 To fix it, enter the command:
 sudo usermod -a -G dialout <username>
