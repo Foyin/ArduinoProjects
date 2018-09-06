@@ -47,15 +47,15 @@ If you run Arduino IDE on Ubuntu, most possibly you cannot upload to Arduino boa
 ioctl("TIOCMGET"): Inappropriate ioctl for device`
 
 To fix it, enter the command:
-sudo usermod -a -G dialout <username>
-sudo chmod a+rw /dev/ttyACM0
+`sudo usermod -a -G dialout <username>`
+`sudo chmod a+rw /dev/ttyACM0`
 
-Where "/dev/ttyACM0" is the specified port
+Where `/dev/ttyACM0` is the specified port
 
 you're going to need to do this everytime you disconnect the arduino so you can make a shorter alias for the command with the command:
 
-alias <new-command-name>="sudo usermod -a -G dialout <username>"
-alias <new-command-name>="sudo chmod a+rw /dev/ttyACM0"
+`alias <new-command-name>="sudo usermod -a -G dialout <username>`
+`alias <new-command-name>="sudo chmod a+rw /dev/ttyACM0`
 
 
 
