@@ -3,7 +3,7 @@ In this project we are creating a simple alarm system with arduino. The system c
 
 #### Devices needed:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Ultrasonic range sensor](http://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
+- [Grove Ultrasonic Range Sensor](http://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
 - [Piezo buzzer](http://wiki.seeedstudio.com/Grove-Buzzer/)
 - [Switch/Rotary Encoder](http://wiki.seeedstudio.com/Grove-Encoder/)
 - [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
