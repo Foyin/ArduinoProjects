@@ -47,6 +47,7 @@ If you run Arduino IDE on Ubuntu, most possibly you cannot upload to Arduino boa
 ioctl("TIOCMGET"): Inappropriate ioctl for device`
 
 To fix it, enter the command:
+
 `sudo usermod -a -G dialout <username>`
 
 `sudo chmod a+rw /dev/ttyACM0`
