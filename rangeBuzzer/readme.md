@@ -28,7 +28,7 @@ Stack the arduino relay on top of the uno then make the following connections.
 ![setup](https://user-images.githubusercontent.com/15314851/44922441-6711be00-ad13-11e8-865d-aab604a6a9c4.JPG)
 
 #### Issues:
-The wiring is a bit naive there ae better ways to do it but this way will help you understand the project a lot better, after that you can improve the wiring. For example instead of using the 5v and 3v ports we can just wire the two devices in parallel, that way they save sapce on the board without compromising voltage.
+The wiring is a bit naive there are better ways to do it but this way will help you understand the project a lot better, after that you can improve the wiring. For example instead of using the 5v and 3v ports we can just wire the two devices in parallel, that way they save sapce on the board without compromising voltage.
 Also the loudness of the buzzer is dependent on the voltage coming thorugh it. So you can make it louder by adding a battery inbetween.
 
 #### Notes:
