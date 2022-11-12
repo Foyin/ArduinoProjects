@@ -1,5 +1,5 @@
 #### Purpose: 
-In this project we are creating a simple alarm system with arduino. The system checks if there is anything within a specified range and a buzzer goes off accordingly. And you can switch off the alarm with a physical switch so nothing happens when an obstacle is in range.
+In this project we are creating a simple alarm system with arduino. The system checks if there is anything within a specified range and a buzzer goes off accordingly. And you can switch off the alarm with a physical switch so nothing happens when an obstacle is in range. Remember to compensate for power
 
 #### Devices needed:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
